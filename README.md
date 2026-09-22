@@ -93,8 +93,23 @@ I am documenting the system from both a business and technical perspective. This
 - Testing
 - Maintenance and monitoring
 
-## Current Project Structure
+## Project Files
 
-This repository will contain the diagrams and documentation used to explain how HealthSync works and how the different parts of the system connect.
+The diagrams and documentation below cover the main parts of the HealthSync design.
 
-The project is a design case study and is not a production healthcare application.
+### Diagrams
+
+- **Context DFD** — Shows the users and outside systems that exchange information with HealthSync
+- **Level-0 DFD** — Breaks HealthSync into its five main processes and shows how data moves through the system
+- **System Architecture** — Shows the path from users through security controls to the application, database, and external services
+
+### Documentation
+
+- [Access Control](docs/access-control.md) — User roles, permissions, and the RBAC approach
+- [Implementation and Testing Plan](docs/implementation-testing.md) — Environment setup, data migration, testing, rollout, and ongoing support
+
+## What I Worked On
+
+For this portfolio version, I rebuilt the HealthSync idea as an independent systems design case study. I focused on organizing the system requirements, data flows, user access, security, system architecture, and implementation plan into one project that explains how the proposed system would work.
+
+HealthSync is a design case study and not a deployed healthcare application.
