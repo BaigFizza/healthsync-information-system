@@ -28,6 +28,14 @@ The Level-0 DFD breaks HealthSync into its main processes and shows how informat
 
 ![HealthSync Level-0 DFD](healthsync-level-0-dfd.png)
 
+## System Architecture
+
+HealthSync uses a simple layered design to separate users, security controls, the application, and stored data. Users connect through HTTPS/TLS, with traffic passing through the firewall and load balancer before reaching the HealthSync application.
+
+Role-based access control (RBAC) determines what each user can access. The application stores patient, billing, and operational data in the HealthSync database and connects with outside services such as lab systems, insurance providers, and pharmacies.
+
+![HealthSync System Architecture](healthsync-system-architecture.png)
+
 ## Users
 
 HealthSync has different types of users with different responsibilities:
