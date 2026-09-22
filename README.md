@@ -16,6 +16,12 @@ The system is designed around five main areas:
 
 It also needs to communicate with outside services such as insurance providers, lab systems, and pharmacies.
 
+## System Context
+
+This diagram shows how HealthSync exchanges information with the main users and outside services connected to the system.
+
+![HealthSync Context DFD](healthsync-context-dfd.png)
+
 ## Users
 
 HealthSync has different types of users with different responsibilities:
