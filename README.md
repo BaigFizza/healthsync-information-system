@@ -22,6 +22,12 @@ This diagram shows how HealthSync exchanges information with the main users and 
 
 ![HealthSync Context DFD](healthsync-context-dfd.png)
 
+### Level-0 Data Flow Diagram
+
+The Level-0 DFD breaks HealthSync into its main processes and shows how information moves between the system, hospital users, and outside services.
+
+![HealthSync Level-0 DFD](healthsync-level-0-dfd.png)
+
 ## Users
 
 HealthSync has different types of users with different responsibilities:
